@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+button {
+  font-size: 16px;
+}
+
+.head_bar {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdbe2d;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.input_section {
+  box-shadow: 0px 7px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+.input_section > h2 {
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 900;
+  padding: 10px;
+  color: #000000;
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.input_section > form > button {
+  background-color: #fdbe2d;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #fedf96;
+  border: 0;
+  border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+  color: #000000;
+  font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.input_section > form > .input_inline > label {
+  color: #000000;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.book_shelf {
+  margin: 16px 0 0 0;
+  border: 0px solid black;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: #fdbe2d;
+}
+
+.book_shelf > h2 {
+  color: #ffffff;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.inside {
+  padding: 10px 20px 10px 20px;
+  border: 0px solid black;
+  border-radius: 10px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.inside > .element h3,
+p {
+  margin: 10px 0;
+}
+
+.delete {
+  width: 3rem;
+  height: 3rem;
+  background: url("./assets/trash-can.svg");
+  background-size: contain;
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.delete:hover {
+  background: url("assets/trash-can-hover.svg");
+  background-size: contain;
+}
+
+.swap {
+  width: 3rem;
+  height: 3rem;
+  background: url("./assets/outline-swap-vert.svg");
+  background-size: contain;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.swap:hover {
+  background: url("assets/outline-swap-vert-hover.svg");
+  background-size: contain;
+}
